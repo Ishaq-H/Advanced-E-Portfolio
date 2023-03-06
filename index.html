@@ -39,7 +39,7 @@
               >Contact</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link click">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -59,8 +59,191 @@
             <br />
             Here's a bit more <b class="blue">about me.</b>
           </p>
+          <div class="social__list">
+            <a
+              href="https://www.linkedin.com/in/ishaq-hassan-b35800260/"
+              class="social__link click"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://github.com/Ishaq-H"
+              target="_blank"
+              class="social__link click"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="" target="_blank" class="social__link click"
+              ><i class="fa-solid fa-file-pdf"></i
+            ></a>
+          </div>
         </div>
       </header>
+      <button class="mail__btn click">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title modal__title--about">
+            Here's a bit about me.
+          </h3>
+          <h4 class="modal__subtitle modal__subtitle--about">
+            Frontend Software Engineer
+          </h4>
+          <p class="modal__para">
+            I'm a 21 year old
+            <b class="blue">Frontend Software Engineer</b> with a strong passion
+            for developing websites with great
+            <b class="blue">user experiences.</b> <br />
+            I currently work on extremely difficult engineering problems and
+            learn from a team consisting of some of the most
+            <b class="blue">talented</b> and
+            <b class="blue">experienced</b> software engieeners every day.
+          </p>
+          <div class="modal__languages">
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="/assets/html icon.png"
+                alt=""
+              />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="/assets/css icon.png"
+                alt=""
+              />
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="/assets/js icon.png"
+                alt=""
+              />
+              <span class="language__name">Javascript</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="/assets/react icon.png"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal__half modal__contact">Let's have a chat</div>
+      </div>
     </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="blue">projects</span>
+          </h1>
+          <ul class="projects__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="/assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS Javascript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus id reprehenderit quisquam. Ducimus minus facilis
+                    enim eaque culpa odio necessitatibus deserunt, dolores
+                    nostrum quibusdam nulla consequatur unde soluta ipsa
+                    eveniet!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="/assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS Javascript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus id reprehenderit quisquam. Ducimus minus facilis
+                    enim eaque culpa odio necessitatibus deserunt, dolores
+                    nostrum quibusdam nulla consequatur unde soluta ipsa
+                    eveniet!
+                  </p>
+                  <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img class="footer__logo--img" src="/assets/logo" alt="" />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Github
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Resume
+            </a>
+          </div>
+          <div class="footer__copyright">Copyright &copy Ishaq Hassan 2023</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
